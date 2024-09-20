@@ -1,0 +1,348 @@
+header.header-style-2 {
+  background-color: whitesmoke;
+}
+.header-style-2 .navbar-expand-lg .navbar-nav .nav-link:hover,
+.header-style-2
+  .dropdown-menu
+  a:hover
+  .header-style-1
+  .navbar-expand-lg
+  .navbar-nav
+  .nav-link:hover,
+.header-style-1 .dropdown-menu a:hover {
+  color: #000000;
+}
+.header-style-2 .navbar-expand-lg .navbar-nav .nav-link {
+  padding: 22px;
+  color: #425c42;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.services-area {
+  margin-top: -155px;
+  position: relative;
+  z-index: 99;
+}
+
+@media (min-width: 1110px) and (max-width: 1300px) {
+  .services-area {
+    margin-top: -30px;
+    position: relative;
+    z-index: 99;
+  }
+  header.header-style-2 .navbar-brand {
+    background: #33691e;
+    width: 270px;
+    text-align: center;
+    padding: 13px 0;
+    margin-right: auto;
+    font-weight: bold;
+  }
+  .wrapper .container {
+    width: 100%;
+    max-width: 95%;
+  }
+}
+
+@media (min-width: 994px) and (max-width: 1109px) {
+  .services-area {
+    margin-top: 50px;
+    position: relative;
+    z-index: 99;
+  }
+  .wrapper .container {
+    width: 100%;
+    max-width: 95%;
+  }
+  header.header-style-2 .navbar-brand {
+    background: #33691e;
+    width: 270px;
+    text-align: center;
+    padding: 13px 0;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 830px) and (max-width: 993px) {
+  .services-area {
+    margin-top: 50px;
+    position: relative;
+    z-index: 99;
+  }
+  .wrapper .container {
+    width: 100%;
+    max-width: 95%;
+  }
+  .slider-caption {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    z-index: 99;
+    width: 100%;
+  }
+  .slider-caption {
+    text-align: left;
+  }
+
+  header.header-style-2 .navbar-brand {
+    background: #33691e;
+    width: 270px;
+    text-align: center;
+    padding: 13px 0;
+    margin-right: auto;
+  }
+  .slider-caption.h2slider strong {
+    font-family: "Poppins", sans-serif;
+    font-size: 230%;
+  }
+  .slider-caption.h2slider h1 {
+    font-size: 450%;
+    /* line-height: 40px; */
+    margin: 20px 0 20px 0;
+  }
+  .slider-caption.h2slider p {
+    font-size: 25px;
+    margin: 0 0 38px 25px;
+  }
+}
+@media (min-width: 470px) and (max-width: 829px) {
+  .wrapper .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  section.services-area ul li {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+  }
+  section.services-area .sinfo {
+    position: relative;
+    z-index: 99;
+    border-right: 1px solid #c8e6c9;
+    padding: 20px 0;
+    border: 1px solid antiquewhite;
+    border-radius: 16px;
+    margin: 10px;
+    height: auto;
+  }
+  section.services-area ul {
+    margin-top: 300px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    border-radius: 10px;
+  }
+
+  section.services-area ul li {
+    width: 100%;
+    content: "";
+    border-radius: 16px;
+    box-shadow: 10px 12px 26px rgba(110, 106, 106, 0.9);
+    margin-top: 25px;
+  }
+  header.header-style-2 .navbar-brand {
+    width: auto;
+    text-align: left;
+    padding: 0;
+    margin-right: 0;
+  }
+  .slider-caption {
+    display: block;
+    top: 50px;
+  }
+  .slider-caption.h2slider strong {
+    font-size: 130%;
+    margin-bottom: 0px;
+  }
+  .slider-caption h1 {
+    font-size: 200%;
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+    line-height: 30px;
+    margin: 0 0 5px;
+  }
+  .about-pic,
+  .slider-caption a,
+  .slider-caption p {
+    display: block;
+  }
+  .slider-caption.h2slider p {
+    font-size: 0.9em;
+    margin: 0 0 0 10px;
+    color: red;
+  }
+  .container .products_services {
+    margin-top: 30px;
+  }
+  .slider-caption.h2slider a {
+    background: #fff;
+    border: 0px;
+    color: #222222;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    height: 53px;
+    line-height: 53px;
+    padding: 0 40px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .why-ecova h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    font-weight: 900;
+    font-size: 1.5em;
+  }
+  .why-ecova p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.99em;
+    margin: 0 0 20px;
+    font-weight: 300;
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+  .slider-caption p,
+  .slider-caption.h2slider p {
+    display: block;
+  }
+  .slider-caption {
+    text-align: left;
+  }
+  .slider-caption.h2slider h1 {
+    font-size: 265%;
+    line-height: 30px;
+    margin: 0 0 10px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 469px) {
+  .wrapper .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  section.services-area ul li {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+  }
+  section.services-area .sinfo {
+    position: relative;
+    z-index: 99;
+    border-right: 1px solid #c8e6c9;
+    padding: 20px 0;
+    border: 1px solid antiquewhite;
+    border-radius: 16px;
+    margin: 10px;
+    height: auto;
+  }
+  section.services-area ul {
+    margin-top: 300px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    border-radius: 10px;
+  }
+
+  section.services-area ul li {
+    width: 100%;
+    content: "";
+    border-radius: 16px;
+    box-shadow: 10px 12px 26px rgba(110, 106, 106, 0.9);
+    margin-top: 25px;
+  }
+  header.header-style-2 .navbar-brand {
+    width: auto;
+    text-align: left;
+    padding: 0;
+    margin-right: 0;
+  }
+  .slider-caption {
+    display: block;
+    top: 0px;
+  }
+  .slider-caption.h2slider strong {
+    font-size: 100%;
+    margin-bottom: 0px;
+  }
+  .slider-caption h1 {
+    font-size: 200%;
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+    line-height: 30px;
+    margin: 0 0 5px;
+  }
+  .about-pic,
+  .slider-caption a,
+  .slider-caption p {
+    display: block;
+  }
+  .slider-caption.h2slider p {
+    font-size: 0.7em;
+    margin: 0;
+    color: red;
+  }
+  .container .products_services {
+    margin-top: 20px;
+  }
+  .slider-caption.h2slider a {
+    background: #fff;
+    border: 0px;
+    color: #222222;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    height: 53px;
+    line-height: 53px;
+    padding: 0 40px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .why-ecova h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    font-weight: 900;
+    font-size: 1.5em;
+  }
+  .why-ecova p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.99em;
+    margin: 0 0 20px;
+    font-weight: 300;
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+  .slider-caption p,
+  .slider-caption.h2slider p {
+    display: block;
+  }
+  .slider-caption {
+    text-align: left;
+  }
+  .slider-caption.h2slider h1 {
+    font-size: 150%;
+    line-height: 30px;
+    margin: 0 0 10px;
+  }
+}
